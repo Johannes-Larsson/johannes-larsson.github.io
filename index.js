@@ -1,4 +1,13 @@
 $(document).ready(function() {
+
+	var l = window.location.href;
+	if (l.search('#') != -1) {
+		l = l.substring(l.lastIndexOf('#') + 1, l.lenght);
+	} else {
+		l = null;
+	}
+	console.log(l);
+	
 	$('.content').hide();
 
 	$('.navButton').click(function() {
@@ -8,5 +17,9 @@ $(document).ready(function() {
 		$($(this).attr('contentId')).show();
 	});
 	
-	$('#default').trigger('click');
+	if (l) {
+		$('#trigger-' + l).trigger('click');
+	} else {
+		$('.defaultView').trigger('click');
+	}
 });
