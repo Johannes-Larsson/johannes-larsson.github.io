@@ -3,17 +3,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Johannes Larsson </title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-	<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>	
+	
+	<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>		
 	<script src='index.js'></script>
 </head>
 
 <body>
 <div class="navbar navbar-default">
-    <a class="navbar-brand"> Johannes Larsson </a>
-	<ul class='nav navbar-nav'>
-		<li class='navButton' contentId='#home' id='default'><a>Home</a></li>
-		<li class='navButton' contentId='#europe'><a>Europe 2086</a></li>
-	</ul>
+	<div class='container-fluid'>
+		<div class='navbar-header'>
+			<a class="navbar-brand"> Johannes Larsson </a>
+			<button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#navCollapse1'>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class='collapse navbar-collapse' id='navCollapse1'>
+			<ul class='nav navbar-nav'>
+				<li class='navButton' contentId='#home' id='default'><a>Home</a></li>
+				<li class='navButton' contentId='#europe'><a>Europe 2086</a></li>
+			</ul>
+		</div>
+	</div>
 </div>
 <div class="container">
     <div class="jumbotron content" id='home'>
