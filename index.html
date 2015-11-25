@@ -3,14 +3,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Johannes Larsson </title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+	<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>	
+	<script src='index.js'></script>
 </head>
 
 <body>
 <div class="navbar navbar-default">
     <a class="navbar-brand"> Johannes Larsson </a>
+	<ul class='nav navbar-nav'>
+		<li class='navButton' contentId='#home' id='default'><a>Home</a></li>
+		<li class='navButton' contentId='#europe'><a>Europe 2086</a></li>
+	</ul>
 </div>
 <div class="container">
-    <div class="jumbotron">
+    <div class="jumbotron content" id='home'>
         <div class=container">
             <div style='padding-left: 15px'>
             <h1>Welcome!</h1>
@@ -20,5 +26,9 @@
             </div>
         </div>
     </div>
+	
+	<div id='europe' class='content'>
+		<h1> this is our game </h1>
+	</div>
 </div>
 </body>
