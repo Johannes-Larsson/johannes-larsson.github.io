@@ -14,6 +14,7 @@ angular.module('app', ['ngRoute'])
     $routeProvider
     .when('/home', { templateUrl: 'views/home.html' })
     .when('/europe', { templateUrl: 'views/europe.html' })
+    .when('/games', { templateUrl: 'views/games.html' })
     .otherwise('/home');
     
     //$locationProvider.html5Mode({enabled: true, requireBase: false});
