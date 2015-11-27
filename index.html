@@ -25,14 +25,14 @@
             </div>
             <div class='collapse navbar-collapse' id='navCollapse1'>
                 <ul class='nav navbar-nav'>
-                    <li class='navButton'><a href='#home'>Home</a></li>
-                    <li class='navButton'><a href='#europe'>Europe 2086</a></li>
+                    <li class='navButton' ng-class='isActive("/home")'><a href='#home'>Home</a></li>
+                    <li class='navButton' ng-class='isActive("/europe")'><a href='#europe'>Europe 2086</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <div ng-view>
+    <div ng-view class='container'>
     </div>
 
 </body>

@@ -3,7 +3,9 @@ angular.module('app', ['ngRoute'])
 
 .controller('MainController', function($scope, $route, $location) {
    $scope.isActive = function(href) {
-       return href == $location;
+       console.log('location: ', $location.url());
+       if (href == $location.url()) return 'active';
+       else return '';
    };
    
 })
