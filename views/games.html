@@ -1,9 +1,6 @@
-<div class='col-md-6'>
-	<iframe src="http://itch.io/embed/26769" width="552" height="167" frameborder="0"></iframe>
-</div>
-<div class='col-md-6'>
-	<iframe src="http://itch.io/embed/43437" width="552" height="167" frameborder="0"></iframe>
-</div>
-<div class='col-md-6'>
-	<iframe src="http://itch.io/embed/10142" width="552" height="167" frameborder="0"></iframe>
+<div ng-repeat='game in games' class='col-md-4 col-sm-6'>
+	<div class='panel panel-default'>
+		<div class='panel-heading'> {{ game.name }} </div>
+		<div class='panel-body'> {{ game.about }} <br>  <a href='{{ game.githubUrl }}'> {{ game.name }} on Github </a> </div>
+	</div>
 </div>
