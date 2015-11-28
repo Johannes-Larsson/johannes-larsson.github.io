@@ -33,13 +33,15 @@ angular.module('app', ['ngRoute'])
           name: 'Minaret Builder', 
           about: 'A game for Arabic Game Jam in Malmö. Stack pieces to build the highest minaret.',
           links: [
-              { name: 'Github', href: 'https://github.com/Johannes-Larsson/Minaret-Builder' }
+              { name: 'Github', href: 'https://github.com/Johannes-Larsson/Minaret-Builder' },
+              { name: 'itch.io', href: 'http://johannes.itch.io/minaretbuilder' } 
           ]},
       { 
           name: 'Flappy Gus',
           about: 'Flappy Bird clone, where the bird is Gus Sorola from Rooster Teeth.',
           links: [
-              { name: 'Github', href: 'https://github.com/Johannes-Larsson/Flappy-Gus' }
+              { name: 'Github', href: 'https://github.com/Johannes-Larsson/Flappy-Gus' },
+              { name: 'itch.io', href: 'http://johannes.itch.io/flappy-gus' }              
           ]}
     ];
 })
