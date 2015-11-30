@@ -1,12 +1,18 @@
-<div ng-repeat='game in games' class='col-md-4 col-sm-6'>
+<div ng-repeat='game in games' class='col-md-6 col-sm-6'>
 	<div class='panel panel-default'>
 		<div class='panel-heading'> {{ game.name }} </div>
 		<div class='panel-body'> 
-			<p> {{ game.about }} </p>
-			<p> {{ game.name }} on 
-				<span ng-repeat="link in game.links"> <a href='{{ link.href }}'> {{ link.name }} </a>
-				<span ng-if='$last == false'>|</span> </span>
-			</p>
+			<div class='media'>
+				<div class='media-left'>
+					<img class='media-object' src='{{ game.img }}'>
+				</div>
+				<div class='media-body'>
+					<p> {{ game.about }} </p>
+					<p> {{ game.name }} on 
+					<span ng-repeat="link in game.links"> <a href='{{ link.href }}'> {{ link.name }} </a>
+					<span ng-if='$last == false'>|</span> </span>
+					</p>
+				</div>
 		</div>
 	</div>
 </div>

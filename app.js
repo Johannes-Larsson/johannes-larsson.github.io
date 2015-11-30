@@ -25,6 +25,7 @@ angular.module('app', ['ngRoute'])
       { 
           name: 'Dungeon Dummy',
           about: 'A game for a game jam in Malmö. Go from room to room killing enemies to gain points.',
+          img: 'images/dd.png',
           links: [
               { name: 'Github', href: 'https://github.com/GlobalGameJam2015-Snittarna/QaosGameJam' },
               { name: 'itch.io', href: 'http://johannes.itch.io/dungeon-dummy' }              
@@ -32,6 +33,7 @@ angular.module('app', ['ngRoute'])
       { 
           name: 'Minaret Builder', 
           about: 'A game for Arabic Game Jam in Malmö. Stack pieces to build the highest minaret.',
+          img: 'images/minaret.png',
           links: [
               { name: 'Github', href: 'https://github.com/Johannes-Larsson/Minaret-Builder' },
               { name: 'itch.io', href: 'http://johannes.itch.io/minaretbuilder' } 
@@ -39,6 +41,7 @@ angular.module('app', ['ngRoute'])
       { 
           name: 'Flappy Gus',
           about: 'Flappy Bird clone, where the bird is Gus Sorola from Rooster Teeth.',
+          img: 'images/gus.png',
           links: [
               { name: 'Github', href: 'https://github.com/Johannes-Larsson/Flappy-Gus' },
               { name: 'itch.io', href: 'http://johannes.itch.io/flappy-gus' }              
