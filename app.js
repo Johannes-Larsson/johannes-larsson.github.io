@@ -36,7 +36,8 @@ angular.module('app', ['ngRoute'])
           img: 'images/minaret.png',
           links: [
               { name: 'Github', href: 'https://github.com/Johannes-Larsson/Minaret-Builder' },
-              { name: 'itch.io', href: 'http://johannes.itch.io/minaretbuilder' } 
+              { name: 'itch.io', href: 'http://johannes.itch.io/minaretbuilder' },
+              { name: 'Google Play', href: 'https://play.google.com/store/apps/details?id=com.larsson.johannes.minaretBuilder.android' }
           ]},
       { 
           name: 'Flappy Gus',
