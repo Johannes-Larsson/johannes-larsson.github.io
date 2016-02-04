@@ -46,6 +46,15 @@ angular.module('app', ['ngRoute'])
           links: [
               { name: 'Github', href: 'https://github.com/Johannes-Larsson/Flappy-Gus' },
               { name: 'itch.io', href: 'http://johannes.itch.io/flappy-gus' }              
-          ]}
+          ]},
+      {
+        name: 'Zeal the Deal',
+        about: 'Megaman style platformer for Global Game Jam 2016.',
+        img: 'images/ztd.png',
+        links: [
+          { name: 'Github', href: 'https://github.com/GlobalGameJam2015-Snittarna/GGJ-2016' },
+          { name: 'Global Game Jam site', href: 'http://globalgamejam.org/2016/games/zeal-deal' }
+        ]
+      }
     ];
 })
